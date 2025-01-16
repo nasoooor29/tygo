@@ -1,4 +1,4 @@
-// Example for https://github.com/gzuidhof/tygo/issues/65
+// Example for https://github.com/nasoooor29/tygo/issues/65
 package genericany
 
 type AnyStructField[T any] struct {

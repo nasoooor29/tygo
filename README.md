@@ -9,7 +9,7 @@ It preserves comments, understands constants and also supports non-struct `type`
 ## Installation
 
 ```shell
-go install github.com/gzuidhof/tygo@latest
+go install github.com/nasoooor29/tygo@latest
 ```
 
 ## Example
@@ -102,7 +102,7 @@ Create a file `tygo.yaml` in which you specify which packages are to be converte
 
 ```yaml
 packages:
-  - path: "github.com/gzuidhof/tygo/examples/bookstore"
+  - path: "github.com/nasoooor29/tygo/examples/bookstore"
     type_mappings:
       time.Time: "string /* RFC3339 */"
       null.String: "null | string"
@@ -125,7 +125,7 @@ The output Typescript file will be next to the Go source files.
 config := &tygo.Config{
   Packages: []*tygo.PackageConfig{
       &tygo.PackageConfig{
-          Path: "github.com/gzuidhof/tygo/examples/bookstore",
+          Path: "github.com/nasoooor29/tygo/examples/bookstore",
       },
   },
 }
